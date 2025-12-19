@@ -1,0 +1,11 @@
+Author Contributions 
+
+Neel Patel: Led dataset creation and capture for all two custom datasets (UMD Red Bottle and Black Bottle), in- cluding camera trajectory planning, image acquisition, and quality control. Implemented and trained models with mod- ified adaptive hash grid resolution scheduling, conducting systematic experiments across different scheduling param- eters (Rmin, Rmax, Twarmup). Performed comprehensive method comparison experiments between vanilla NeRF, Instant-NGP, and Nerfacto, including metric computation and result analysis. Authored the majority of the final re- port. 
+
+Javier Robles: Designed and implemented the en- hanced color MLP architecture with skip connections, including hyperparameter tuning for layer dimensions (64→96 units) and depth (2→3 layers). Addressed un- derfitting issues for view-dependent appearance modeling, particularly for sparse-view scenarios. Conducted mesh ex- traction and 360° video rendering experiments with quality evaluation. Developed visualization pipelines for qualita- tive comparisons including depth maps and temporal con- sistency analysis. Created and delivered the final project presentation. 
+
+Both authors jointly debugged implementation issues, discussed experimental design, and interpreted results throughout the project lifecycle. 
+
+Supplementary Material:
+
+Our supplementary material includes: Source Code, Datasets, 360° Reconstruction Videos, 3D Mesh Files and additional visualizations. Here is the link: https://github.com/neel3998/ENPM703-Project-Modified-Instant-NGP-
